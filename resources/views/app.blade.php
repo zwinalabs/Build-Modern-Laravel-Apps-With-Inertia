@@ -7,6 +7,6 @@
     <script src="{{ mix('/js/app.js') }}" defer></script>
   </head>
   <body>
-    <div id="app" data-page="{{ json_encode($page) }}"></div>
+    @inertia
   </body>
 </html>
